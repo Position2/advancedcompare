@@ -1,5 +1,5 @@
 <?php
-namespace Positionsquare\Advancedcompare\Controller\Index;
+namespace Position2\Advancedcompare\Controller\Index;
 
 use Magento\Framework\Controller\ResultFactory;
 
@@ -24,7 +24,7 @@ class Addtocompare extends \Magento\Framework\App\Action\Action
     public function execute()
     {
         $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
-        $_helper = $objectManager->get('Positionsquare\Advancedcompare\Helper\Data');
+        $_helper = $objectManager->get('Position2\Advancedcompare\Helper\Data');
         $compareCountRest = $_helper->getCompareCount();
         $imageHelper = $objectManager->get(\Magento\Catalog\Helper\Image::class);
         $placeholderImageUrl = $imageHelper->getDefaultPlaceholderUrl('image');

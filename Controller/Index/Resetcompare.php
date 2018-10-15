@@ -1,5 +1,5 @@
 <?php
-namespace Positionsquare\Advancedcompare\Controller\Index;
+namespace Position2\Advancedcompare\Controller\Index;
 
 use Magento\Framework\Controller\ResultFactory;
 

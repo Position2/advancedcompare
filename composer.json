@@ -8,7 +8,7 @@
   "autoload": {
     "files": [ "registration.php" ],
     "psr-4": {
-      "Positionsquare\\Advancedcompare\\": ""
+      "Position2\\Advancedcompare\\": ""
     }
   }
 }

@@ -1,5 +1,5 @@
 <?php
-namespace Positionsquare\Advancedcompare\Helper;
+namespace Position2\Advancedcompare\Helper;
 
 use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Store\Model\ScopeInterface;

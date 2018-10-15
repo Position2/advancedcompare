@@ -1,5 +1,5 @@
 <?php
-namespace Positionsquare\Advancedcompare\Controller\Index;
+namespace Position2\Advancedcompare\Controller\Index;
 
 class Comparebutton extends \Magento\Framework\App\Action\Action
 {

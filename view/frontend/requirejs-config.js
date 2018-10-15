@@ -1,6 +1,6 @@
 var config = {
   paths: {
-    'compare': 'Positionsquare_Advancedcompare/js/compare'
+    'compare': 'Position2_Advancedcompare/js/compare'
   },
   shim: {
     'compare': {

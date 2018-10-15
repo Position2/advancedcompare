@@ -16,7 +16,7 @@ use Magento\Framework\App\Action\Action;
 <?php
 $_productCollection = $block->getLoadedProductCollection();
 $_helper = $this->helper('Magento\Catalog\Helper\Output');
-$_advance_compare_helper = $this->helper('Positionsquare\Advancedcompare\Helper\Data');
+$_advance_compare_helper = $this->helper('Position2\Advancedcompare\Helper\Data');
 ?>
 <?php if (!$_productCollection->count()): ?>
     <div class="message info empty"><div><?= /* @escapeNotVerified */ __('We can\'t find products matching the selection.') ?></div></div>
